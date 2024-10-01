@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodePen Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mini CodePen Clone</h1>
+        <button id="save-btn">Save Code</button>
+    </header>
+    <div class="editor-container">
+        <div class="editor" id="html-editor">
+            <h2>HTML</h2>
+            <textarea id="html-code" placeholder="Write your HTML code here..."></textarea>
+        </div>
+        <div class="editor" id="css-editor">
+            <h2>CSS</h2>
+            <textarea id="css-code" placeholder="Write your CSS code here..."></textarea>
+        </div>
+        <div class="editor" id="js-editor">
+            <h2>JavaScript</h2>
+            <textarea id="js-code" placeholder="Write your JavaScript code here..."></textarea>
+        </div>
+    </div>
+    <button id="run-code">Run Code</button>
+    <iframe id="output"></iframe>
+    <script src="script.js"></script>
+</body>
+</html>
